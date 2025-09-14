@@ -1,0 +1,25 @@
+<!-- Task-1 -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <center>
+            <h1>Calculator</h1><br><br>
+                Enter First Number:<input type="text" name="a" id="a" required><br><br>
+                Enter Second Number:<input type="text" name="b" id="b" required><br><br>
+                Enter Operand:
+                <select name="operand" id="operand">
+                    <option value="add" id="add">Addition(+)</option>
+                    <option value="sub" id="sub">Subtraction(-)</option>
+                    <option value="mul" id="mul">Multiplication(*)</option>
+                    <option value="div" id="div">Division(/)</option>
+                </select><br><br>
+                <button onclick="compute()">Result:</button>
+                <p id="result"></p>
+        </center>
+        <script src="script.js"></script>
+    </body>
+</html>
