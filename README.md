@@ -20,4 +20,4 @@ Open the `main.html` file inside each project folder in your browser to see the 
 
 ## Contact
 
-For any questions, please reach out to me at [your-email@example.com].
+For any questions, please reach out to me at [praveenvishwabramham@gmail.com].
